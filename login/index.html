@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <div id="alert" class="errorMsgNo">
+            <button id="close">x</button>
+            <h1>Erro</h1>
+            <h2>Usuário e/ou Senha estão inválidos.</h2>
+        </div>
+    </section>
+    
+    <fieldset id="corpo">
+        <legend>Login</legend>
+        <form action="">
+            <h1>Tela de login</h1>
+            <label for="user"><b>Usuario:</b></label>
+            <input id="user" autocomplete="username" type="text" maxlength="100" placeholder="Digite seu nome de usuario">
+
+            <label for="password"><b>Senha:</b></label>
+            <input id="password" autocomplete="current-password" type="password" maxlength="6" minlength="6" placeholder="Digite aqui sua senha">
+
+            <input id="submit" type="button" value="Fazer login">
+        </form>
+    </fieldset>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    background-color: rgb(55, 160, 111);
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin-top: 150px;
+    height: 50vh;
+
+}
+
+input {
+    width: 390px;
+    margin-bottom: 1rem;
+    height: 35px;
+}
+
+#clear {
+    width: 90px;
+    height: 20px;
+}
+
+#buttons {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 30px 30px 30px 30px;
+}
+
+button {
+    border: 1px solid rgb(0, 0, 0);
+    cursor: pointer;
+    margin: 5px;
+}
+
+#input_valor{
+    margin-bottom: 40px;
+    border-radius: 5px;
+    border: solid 1px aliceblue;
+}
